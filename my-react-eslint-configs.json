@@ -21,6 +21,8 @@
     ],
     "no-console": [2, { "allow": ["warn", "error"] }],
     "import/prefer-default-export": "off",
-    "object-curly-newline": "off"
+    "object-curly-newline": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   }
 }
